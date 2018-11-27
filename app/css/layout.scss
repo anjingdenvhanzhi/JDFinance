@@ -1,7 +1,13 @@
 @charset "UTF-8";
 
 @mixin flex($direction:column,$inline:block) {
+<<<<<<< HEAD
   display: if($inline==bolok,flex,inline-flex);
   flex-direction: $direction;
   flex-wrap: wrap;
+=======
+    display: if($inline==block,flex,inline-flex);
+    flex-direction: $direction;
+    flex-wrap: wrap;
+>>>>>>> 3c0305306372d0e15e5da9143d19c55fa52c477c
 }
